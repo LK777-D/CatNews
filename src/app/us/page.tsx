@@ -7,23 +7,13 @@ import Crypto from "@/components/Crypto";
 import SmallNewsCard from "@/components/SmallNewsCard";
 
 const US = async () => {
-  // const newsData = await fetchNews();
-  // const usNews = newsData.usData.articles.filter(
-  //   (article: NewsT) => article.urlToImage !== null || undefined
-  // );
-  // const crunchNews = newsData.crunchData.articles.filter(
-  //   (article: NewsT) => article.urlToImage !== null || undefined
-  // );
-  const fetchData = async () => {
-    const appleResponse = await fetch(
-      `https://newsapi.org/v2/everything?q=apple&from=2023-10-01&to=2023-10-01&sortBy=popularity&apiKey=cbe857cf89d040dcab2db41efb3ce48b`,
-      { next: { revalidate: 10000 } }
-    );
-    const data = await appleResponse.json();
-    return data;
-  };
-  const data = await fetchData();
-  const crunchNews = data.articles;
+  const newsData = await fetchNews();
+  const usNews = newsData.usData.articles.filter(
+    (article: NewsT) => article.urlToImage !== null || undefined
+  );
+  const crunchNews = newsData.crunchData.articles.filter(
+    (article: NewsT) => article.urlToImage !== null || undefined
+  );
 
   return (
     <main>
@@ -39,12 +29,12 @@ const US = async () => {
               url={news.url}
             />
           ))}
-          {/* <NewsBox
+          <NewsBox
             news={usNews}
             heading="#US News"
             startSlice={0}
             finishSlice={15}
-          /> */}
+          />
         </div>
         <div className="flex flex-col gap-20 items-center md:flex-row md:items-start justify-center xl:flex-col">
           <SideAd />
@@ -57,7 +47,7 @@ const US = async () => {
           #News Mix(7 days)
         </h1>
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5  ">
-          {/* {crunchNews.slice(0, 15).map((news: NewsT) => (
+          {crunchNews.slice(0, 15).map((news: NewsT) => (
             <SmallNewsCard
               key={news.title}
               source={news.source}
@@ -66,7 +56,7 @@ const US = async () => {
               publishedAt={news.publishedAt}
               url={news.url}
             />
-          ))} */}
+          ))}
         </div>
       </section>
     </main>
