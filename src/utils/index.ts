@@ -1,8 +1,4 @@
-const net = require("net");
 
-if (net.setDefaultAutoSelectFamily) {
-  net.setDefaultAutoSelectFamily(false);
-}
 
 export const fetchNews = async () => {
     const apiKey = 'cbe857cf89d040dcab2db41efb3ce48b';
