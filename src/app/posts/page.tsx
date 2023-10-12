@@ -3,7 +3,7 @@ import Crypto from "@/components/Crypto";
 // import Testimonials from "@/components/Testimonials";
 import Link from "next/link";
 
-const Forum = () => {
+const Forum = async () => {
   return (
     <section className="relative min-h-[100vh] flex flex-col gap-20">
       <div className="flex flex-col text-center mt-20 mb-5 text-blue-950 ">

@@ -1,7 +1,7 @@
 "use client";
-import Image from "next/image";
+
 import { useState } from "react";
-import { UilAngleLeft } from "@iconscout/react-unicons";
+import { BsChevronCompactLeft, BsChevronCompactRight } from "react-icons/bs";
 import { UilAngleRight } from "@iconscout/react-unicons";
 import { RxDotFilled } from "react-icons/rx";
 const images = [
@@ -80,13 +80,13 @@ const Slider = () => {
         onClick={prevImg}
         className="absolute top-[48%] left-[2%] cursor-pointer text-white bg-black/20 rounded-[50%] p-1 hover:bg-black/50 transition ease-in-out"
       >
-        <UilAngleLeft size="40" />
+        <BsChevronCompactLeft size={40} />
       </div>
       <div
         onClick={nextImg}
         className="absolute top-[48%] right-[2%] cursor-pointer text-white bg-black/20 rounded-[50%] p-1 hover:bg-black/50 transition ease-in-out"
       >
-        <UilAngleRight size="40" />
+        <BsChevronCompactRight size={40} />
       </div>
       <div className="flex items-center justify-center">
         {images.map((img, idx) => (
