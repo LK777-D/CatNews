@@ -1,6 +1,8 @@
-const dns = require("dns");
+const net = require("net");
 
-dns.setDefaultResultOrder("ipv4first");
+if (net.setDefaultAutoSelectFamily) {
+  net.setDefaultAutoSelectFamily(false);
+}
 
 /** @type {import('next').NextConfig} */
 const nextConfig = {

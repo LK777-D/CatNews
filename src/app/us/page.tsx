@@ -46,7 +46,7 @@ const US = async () => {
         <h1 className="fontbold text-blue-900 text-3xl mb-5 ml-4">
           #News Mix(7 days)
         </h1>
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5  ">
+        {/* <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5  ">
           {crunchNews.slice(0, 15).map((news: NewsT) => (
             <SmallNewsCard
               key={news.title}
@@ -57,7 +57,7 @@ const US = async () => {
               url={news.url}
             />
           ))}
-        </div>
+        </div> */}
       </section>
     </main>
   );
