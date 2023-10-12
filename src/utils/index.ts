@@ -8,11 +8,11 @@ export const fetchNews = async () => {
     const wallStUrl = `https://newsapi.org/v2/everything?domains=wsj.com&apiKey=${apiKey}`;
   
     try {
-      const appleResponse = await fetch(appleUrl);
-      const teslaResponse = await fetch(teslaUrl);
-      const usResponse = await fetch(usUrl);
-      const crunchResponse = await fetch(crunchUrl);
-      const wallStResponse = await fetch(wallStUrl);
+      const appleResponse = await fetch(appleUrl , {next:{revalidate: 10000}});
+      const teslaResponse = await fetch(teslaUrl,{next:{revalidate: 10000}});
+      const usResponse = await fetch(usUrl,{next:{revalidate: 10000}});
+      const crunchResponse = await fetch(crunchUrl,{next:{revalidate: 10000}});
+      const wallStResponse = await fetch(wallStUrl,{next:{revalidate: 10000}});
   
       if (!appleResponse.ok || !teslaResponse.ok || !usResponse.ok || !crunchResponse.ok || !wallStResponse.ok) {
         throw new Error('One or more network responses were not ok');
@@ -39,7 +39,7 @@ export const fetchNews = async () => {
   
   export  const fetchCrypto = async() => {
     try{
-      const response = await fetch('https://api.coinstats.app/public/v1/coins?skip=0')
+      const response = await fetch('https://api.coinstats.app/public/v1/coins?skip=0', {next:{revalidate:2000}})
       const cryptoData = await response.json()
 
       return cryptoData

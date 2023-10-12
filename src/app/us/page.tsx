@@ -1,5 +1,3 @@
-import NewsCard from "@/components/NewsCard";
-import Image from "next/image";
 import { fetchNews } from "@/utils";
 import { NewsT } from "@/types/Types";
 import NewsBox from "@/components/NewsBox";
@@ -7,8 +5,6 @@ import LargeNewsCard from "@/components/LargeNewsCard";
 import SideAd from "@/components/SideAd";
 import Crypto from "@/components/Crypto";
 import SmallNewsCard from "@/components/SmallNewsCard";
-import { useState } from "react";
-import Header from "@/components/Slider";
 
 const US = async () => {
   const newsData = await fetchNews();
