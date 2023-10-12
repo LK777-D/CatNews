@@ -1,3 +1,5 @@
+"use-client";
+
 import NewPost from "@/app/posts/new/page";
 import { usePostContext } from "@/context/postContext";
 import Link from "next/link";
