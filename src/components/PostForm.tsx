@@ -47,7 +47,7 @@ const PostForm = () => {
               htmlFor="description"
               className="text-gray-800 text-lg font-semibold"
             >
-              Email
+              E-mail
             </label>
             <input
               onChange={(e) => setDescription(e.target.value)}
