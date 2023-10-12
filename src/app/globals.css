@@ -1,3 +1,11 @@
+@import url("https://fonts.googleapis.com/css2?family=Dela+Gothic+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Signika+Negative:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Young+Serif&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@300&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -8,20 +16,59 @@
   --background-end-rgb: 255, 255, 255;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+.fontbold {
+  font-family: "Dela Gothic One", cursive;
+}
+.fontsemibold {
+  font-family: "Signika Negative", sans-serif;
+}
+.styledfont {
+  font-family: "Permanent Marker", cursive;
+}
+.forumfont1 {
+  font-family: "Young Serif", serif;
+}
+.fontlight {
+  font-family: "Montserrat", sans-serif;
+}
+.fonttext {
+  font-family: "Exo 2", sans-serif;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Cormorant Garamond", serif !important;
+  background-color: #fff;
+  scrollbar-width: none;
+}
+.bordertransp {
+  border: none;
+  transition: all 0.3s ease;
+  border-radius: 7px;
+  border: 1px solid rgb(21, 54, 145, 0.03);
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.bordertransp:hover {
+  border: 1px solid rgb(21, 54, 145, 0.12);
+}
+.authorbg {
+  background-color: rgb(21, 54, 145, 0.7);
+}
+::-webkit-scrollbar {
+  display: none;
+}
+.seperator {
+  width: 95%;
+  margin: 3rem auto;
+  height: 3px;
+  background-color: rgb(211, 211, 211, 0.5);
+}
+.seperatorsm {
+  width: 85%;
+  margin: 1rem auto;
+  height: 1px;
+  background-color: rgb(211, 211, 211, 0.3);
+}
+.textshad {
+  text-shadow: 2px 2px 4px rgba(22, 21, 21, 0.5);
 }

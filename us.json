@@ -1,0 +1,206 @@
+{
+  "status": "ok",
+  "totalResults": 64,
+  "articles": [
+    {
+      "source": { "id": "usa-today", "name": "USA Today" },
+      "author": "USA TODAY",
+      "title": "Mega Millions reaches $267 million. See Sept. 29 winning numbers - USA TODAY",
+      "description": null,
+      "url": "https://www.usatoday.com/story/money/2023/09/29/mega-millions-winning-numbers/71007166007/",
+      "urlToImage": null,
+      "publishedAt": "2023-09-30T03:30:50Z",
+      "content": null
+    },
+    {
+      "source": { "id": "reuters", "name": "Reuters" },
+      "author": "Ryan Woo, Tina Qiao",
+      "title": "China's economy stabilises, factory activity returns to expansion - Reuters",
+      "description": "China's factory activity expanded for the first time in six months in September, an official survey showed on Saturday, adding to a run of indicators suggesting the world's second-largest economy has begun to bottom out.",
+      "url": "https://www.reuters.com/world/china/china-september-factory-activity-expands-first-time-six-months-2023-09-30/",
+      "urlToImage": "https://www.reuters.com/resizer/jDGACKGE1mzjBwVTDZty3ioDuAU=/1200x628/smart/filters:quality(80)/cloudfront-us-east-2.images.arcpublishing.com/reuters/ED6RSOXBCZO6NGBYUELVBZNTT4.jpg",
+      "publishedAt": "2023-09-30T03:13:42Z",
+      "content": "BEIJING, Sept 30 (Reuters) - China's factory activity expanded for the first time in six months in September, an official survey showed on Saturday, adding to a run of indicators suggesting the world… [+3250 chars]"
+    },
+    {
+      "source": { "id": "bloomberg", "name": "Bloomberg" },
+      "author": null,
+      "title": "China Manufacturing Activity Expands for First Time Since March - Bloomberg",
+      "description": "China’s manufacturing activity returned to expansion for the first time in six months, adding to signs that some parts of the economy are finding their footing again.",
+      "url": "https://www.bloomberg.com/news/articles/2023-09-30/china-manufacturing-activity-expands-for-first-time-since-march",
+      "urlToImage": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iLOj6Lb64O0I/v1/1200x827.jpg",
+      "publishedAt": "2023-09-30T01:51:33Z",
+      "content": "Chinas manufacturing activity returned to expansion for the first time in six months, adding to signs that some parts of the economy are finding their footing again.\r\nThe official manufacturing purch… [+220 chars]"
+    },
+    {
+      "source": { "id": null, "name": "Investor's Business Daily" },
+      "author": "Investor's Business Daily",
+      "title": "Dow Jones Falters As McCarthy Defeat Raises Government Shutdown Odds; Tesla Deliveries Due - Investor's Business Daily",
+      "description": "It's still a market correction for now. Tesla deliveries are on tap.",
+      "url": "https://www.investors.com/market-trend/stock-market-today/dow-jones-falters-as-mccarthy-defeat-raises-government-shutdown-odds-tesla-deliveries-due/",
+      "urlToImage": "https://www.investors.com/wp-content/uploads/2019/02/stock-capital-hill-redSky-01-shutter.jpg",
+      "publishedAt": "2023-09-30T00:46:00Z",
+      "content": "Dow Jones futures will open Sunday night, along with S&amp;P 500 futures and Nasdaq futures, with a likely government shutdown this weekend. The House on Friday rejected a stopgap spending bill from … [+8725 chars]"
+    },
+    {
+      "source": { "id": "the-hill", "name": "The Hill" },
+      "author": "Stephanie Whiteside",
+      "title": "5in1 Rocker Bassinet recalled; company not cooperating - The Hill",
+      "description": "The bassinets do not meet the safety requirements of CPSC’s Infant Sleep Products Rule, which regulates sleep products for infants up to 5 months old.",
+      "url": "https://thehill.com/business/4230917-5in1-rocker-bassinet-recalled-company-not-cooperating/",
+      "urlToImage": "https://thehill.com/wp-content/uploads/sites/2/2023/09/baby-bassinett.png?w=1280",
+      "publishedAt": "2023-09-30T00:37:00Z",
+      "content": "Skip to content\r\n<ul><li>Consumers should disassemble and throw out the bassinets immediately</li><li>The product poses a risk of falls, strangulation and suffocation to infants</li><li>The company i… [+2555 chars]"
+    },
+    {
+      "source": { "id": null, "name": "YouTube" },
+      "author": null,
+      "title": "Rep. Matt Gaetz: The continuing resolution way of governing is a 'fever dream' - CNBC Television",
+      "description": "Hosted by Brian Sullivan, “Last Call” is a fast-paced, entertaining business show that explores the intersection of money, culture and policy. Tune in Monday...",
+      "url": "https://www.youtube.com/watch?v=RtH04GeqEtA",
+      "urlToImage": "https://i.ytimg.com/vi/RtH04GeqEtA/maxresdefault.jpg",
+      "publishedAt": "2023-09-30T00:12:20Z",
+      "content": null
+    },
+    {
+      "source": { "id": "al-jazeera-english", "name": "Al Jazeera English" },
+      "author": "Megha Bahree",
+      "title": "With a US government shutdown imminent, what happens to the economy? - Al Jazeera English",
+      "description": "About quarter of the US GDP is government expenditure. A drop in that spending will have knock-on effect on the economy.",
+      "url": "https://www.aljazeera.com/economy/2023/9/29/with-a-us-government-shutdown-imminent-what-happens-to-the-economy",
+      "urlToImage": "https://www.aljazeera.com/wp-content/uploads/2023/09/AP23269019673510-1696026577.jpg?resize=1920%2C1440",
+      "publishedAt": "2023-09-29T23:15:07Z",
+      "content": "It is probably no surprise that Republican infighting scuttled a stopgap measure on Friday in the House of Representatives, designed to avert a government shutdown on September 30.\r\nThat is the deadl… [+5609 chars]"
+    },
+    {
+      "source": { "id": null, "name": "CNBC" },
+      "author": "Julie Coleman",
+      "title": "Cramer says don't make any moves right before a company's earnings report - CNBC",
+      "description": "CNBC's Jim Cramer on Friday told investors not to trade based on guesses about a company's quarterly earnings.",
+      "url": "https://www.cnbc.com/2023/09/29/cramer-says-dont-make-moves-right-before-a-companys-earnings-report.html",
+      "urlToImage": "https://image.cnbcfm.com/api/v1/image/105774073-1551738764980img_5970rr.jpg?v=1696028677&w=1920&h=1080",
+      "publishedAt": "2023-09-29T23:04:37Z",
+      "content": "CNBC's Jim Cramer on Friday told investors not to make any major stock moves right before a company's quarterly report.\r\n\"You shouldn't try to play the earnings game, meaning don't trade stocks on th… [+1100 chars]"
+    },
+    {
+      "source": { "id": null, "name": "PBS" },
+      "author": null,
+      "title": "A look at the retailers blaming crime as they close stores - PBS NewsHour",
+      "description": "Target announced this week that it is planning to close several stores, citing retail theft and organized retail crime as major problems. It’s raising concerns and questions about whether retail theft is worsening and what can be done about it. Geoff Bennett …",
+      "url": "https://www.pbs.org/newshour/show/as-retailers-close-stores-due-to-shoplifting-are-the-concerns-real-or-overblown",
+      "urlToImage": "https://d3i6fh83elv35t.cloudfront.net/static/2023/09/Theft-1024x683.jpg",
+      "publishedAt": "2023-09-29T22:40:12Z",
+      "content": "Gabrielle Fonrouge:\r\nYes, absolutely.\r\nIt is easier than ever to resell stolen goods. And that is absolutely an issue. Last year, Congress passed the INFORM Act, which requires digital marketplaces s… [+1334 chars]"
+    },
+    {
+      "source": { "id": null, "name": "Yahoo Entertainment" },
+      "author": "Brian Sozzi",
+      "title": "Yahoo Finance exclusive: SmileDirectClub files for Chapter 11 bankruptcy, eyes restructuring - Yahoo Finance",
+      "description": "SmileDirectClub buckles under the weight of several obstacles.",
+      "url": "https://finance.yahoo.com/news/yahoo-finance-exclusive-smiledirectclub-files-for-chapter-11-bankruptcy-eyes-restructuring-221940952.html",
+      "urlToImage": "https://s.yimg.com/ny/api/res/1.2/onckL7Xz6dlyFR2sgKtcgA--/YXBwaWQ9aGlnaGxhbmRlcjt3PTEyMDA7aD04MDA-/https://s.yimg.com/os/creatr-images/2019-09/728c8950-d57a-11e9-bbbf-14fc1fbec7ae",
+      "publishedAt": "2023-09-29T22:19:40Z",
+      "content": "One final frown for SmileDirectClub (SDC) investors.\r\nThe tooth alignment outfit filed for voluntary protection under Chapter 11 of the US Bankruptcy Code on Friday, Yahoo Finance exclusively learned… [+3445 chars]"
+    },
+    {
+      "source": { "id": "cbs-news", "name": "CBS News" },
+      "author": "Kate Gibson",
+      "title": "75,000 Kaiser Permanente workers are set to go on strike. Here are the 5 states that could be impacted. - CBS News",
+      "description": "The walkout by Kaiser Permanente nurses, orderlies and other workers would represent the biggest health care strike in U.S. history.",
+      "url": "https://www.cbsnews.com/news/kaiser-permanente-strike-california-colorado-oregon-virginia-washington/",
+      "urlToImage": "https://assets3.cbsnewsstatic.com/hub/i/r/2022/11/18/62026b4d-9c47-4593-b0b3-f2f9a778186d/thumbnail/1200x630/5f540687067c57ec4968ee2fd4cd3cce/kaiser-la-nurses-strike.jpg?v=42bbcea0e3eaab3fb7d470f54c86b0bd",
+      "publishedAt": "2023-09-29T22:11:00Z",
+      "content": "Kaiser workers planning to strike in October \r\nKaiser workers planning to strike in October00:39\r\nMore than 75,000 health care workers could go on strike within days if negotiators fail to reach agre… [+3632 chars]"
+    },
+    {
+      "source": { "id": "cbs-news", "name": "CBS News" },
+      "author": "Khristopher J. Brooks",
+      "title": "UAW targets more Ford and GM plants as union expands autoworker strike - CBS News",
+      "description": "UAW President Shawn Fain said 7,000 union workers in Chicago and Lansing, Michigan, will join the historic strike.",
+      "url": "https://www.cbsnews.com/news/strike-uaw-update-big-three-detroit-shawn-fain/",
+      "urlToImage": "https://assets2.cbsnewsstatic.com/hub/i/r/2023/09/22/cf41314a-ad4c-4cb6-ac5b-131aa5bf1dcd/thumbnail/1200x630/b338a22e2d48e94f0290b03215153097/gettyimages-1683353261.jpg?v=42bbcea0e3eaab3fb7d470f54c86b0bd",
+      "publishedAt": "2023-09-29T22:08:00Z",
+      "content": "UAW President Shawn Fain calls for an additional 7,000 workers to go on strike \r\nUAW President Shawn Fain calls for an additional 7,000 workers to go on strike12:20\r\nUnited Auto Workers President Sha… [+5338 chars]"
+    },
+    {
+      "source": { "id": null, "name": "CNBC" },
+      "author": "Alex Harring, Sarah Min, Pia Singh",
+      "title": "Dow sheds more than 100 points Friday, S&P 500 and Nasdaq wrap worst month in 2023: Live updates - CNBC",
+      "description": "The Dow finished the session, week, month and quarter lower.",
+      "url": "https://www.cnbc.com/2023/09/28/stock-market-today-live-updates.html",
+      "urlToImage": "https://image.cnbcfm.com/api/v1/image/107309453-1696020515763-aa2img_100_99_112_1917665_1000-1696020420068.jpg?v=1696020731&w=1920&h=1080",
+      "publishedAt": "2023-09-29T21:37:00Z",
+      "content": "The Dow Jones Industrial Average retreated on Friday as investors followed the latest news about a potential government shutdown and ended what has been a tough month for stocks.\r\nThe blue-chip avera… [+2340 chars]"
+    },
+    {
+      "source": { "id": "the-hill", "name": "The Hill" },
+      "author": "Taylor Giorno",
+      "title": "Supreme Court agrees to hear debit card ‘swipe fees’ case - The Hill",
+      "description": "The Supreme Court agreed Friday to take up a case asking the Federal Reserve to lower the cap on debit card “swipe fees.” An amendment by Sen. Dick Durbin (D-Ill.) to the 2010 Dodd-Frank Act directed the Fed to set a “reasonable” cap on fees that banks charge…",
+      "url": "https://thehill.com/business/4231072-supreme-court-agrees-to-hear-debit-card-swipe-fees-case/",
+      "urlToImage": "https://thehill.com/wp-content/uploads/sites/2/2023/01/cardswipe_110209_ap-elaine-thompson_six-ways-debt.jpg?w=1280",
+      "publishedAt": "2023-09-29T21:27:00Z",
+      "content": "Skip to content\r\nThe Supreme Court agreed Friday to take up a case asking the Federal Reserve to lower the cap on debit card “swipe fees.”\r\nAn amendment by Sen. Dick Durbin (D-Ill.) to the 2010 Dodd-… [+2568 chars]"
+    },
+    {
+      "source": { "id": null, "name": "Department of Defense" },
+      "author": null,
+      "title": "> U.S - Department of Defense",
+      "description": "Today's Defense Department contracts valued at $7.5 million or more are now live on Defense.gov.",
+      "url": "https://www.defense.gov/News/Contracts/Contract/Article/3543791/",
+      "urlToImage": "https://media.defense.gov/2021/Sep/30/2002865211/1280/1280/0/210930-D-EX074-013.JPG",
+      "publishedAt": "2023-09-29T21:03:04Z",
+      "content": "NAVY\r\nThe Charles Stark Draper Laboratory, Cambridge, Massachusetts, is awarded a $2,183,965,410 cost-plus-fixed-fee contract for technical and engineering support necessary to maintain and sustain t… [+81062 chars]"
+    },
+    {
+      "source": { "id": null, "name": "Yahoo Entertainment" },
+      "author": null,
+      "title": "Flight attendants and pilots swear by this luggage brand that you can shop on sale on Amazon right now - Yahoo News",
+      "description": null,
+      "url": "https://news.yahoo.com/flight-crew-luggage-travelpro-amazon-205059146.html",
+      "urlToImage": null,
+      "publishedAt": "2023-09-29T20:50:59Z",
+      "content": null
+    },
+    {
+      "source": { "id": "abc-news", "name": "ABC News" },
+      "author": "ABC News",
+      "title": "Thousands of cantaloupes recalled over salmonella concerns - ABC News",
+      "description": "The fruit was sold in 19 states.",
+      "url": "https://abcnews.go.com/US/thousands-cantaloupes-recalled-salmonella-concerns/story?id=103611393",
+      "urlToImage": "https://i.abcnewsfe.com/a/3e3f2abf-409b-4faf-a793-6aaf7ec10bca/canteloupe-recall-gty-thg-230929_1696015322038_hpMain_16x9.jpg?w=992",
+      "publishedAt": "2023-09-29T20:49:59Z",
+      "content": "The U.S. Food and Drug Administration is warning that 6,456 cases of cantaloupe are being recalled due to a potential for Salmonella.\r\nEagle Produce LLC from Scottsdale, AZ initiated the voluntary re… [+855 chars]"
+    },
+    {
+      "source": { "id": "cnn", "name": "CNN" },
+      "author": "Danielle Wiener-Bronner",
+      "title": "Judge: Starbucks violated federal labor law by withholding pay hikes from unionized workers - CNN",
+      "description": "Starbucks violated federal labor law when it increased wages and offered new perks and benefits only to non-union employees, a National Labor Relations Board judge found Thursday.",
+      "url": "https://www.cnn.com/2023/09/29/business/starbucks-union-wages/index.html",
+      "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/230929133024-01-starbucks-union-wages.jpg?c=16x9&q=w_800,c_fill",
+      "publishedAt": "2023-09-29T20:41:00Z",
+      "content": "Starbucks violated federal labor law when it increased wages and offered new perks and benefits only to non-union employees, a National Labor Relations Board judge found Thursday. \r\nThe decision is t… [+4591 chars]"
+    },
+    {
+      "source": { "id": null, "name": "C4ISRNet" },
+      "author": "Megan Eckstein",
+      "title": "Lockheed wins $1.1B contract to design Navy's Integrated Combat System - C4ISRNET",
+      "description": "The Navy is moving to a single combat system for all surface ships, which would allow for faster and easier upgrades.",
+      "url": "https://www.c4isrnet.com/battlefield-tech/it-networks/2023/09/29/lockheed-wins-11b-contract-to-design-navys-integrated-combat-system/",
+      "urlToImage": "https://www.c4isrnet.com/resizer/QesGQOtZf3gBL3woGyc4x8IQKvw=/1024x0/filters:format(jpg):quality(70)/cloudfront-us-east-1.images.arcpublishing.com/archetype/GMWEPZQTNFDXPF65EE32QL3N7Q.jpg",
+      "publishedAt": "2023-09-29T20:31:58Z",
+      "content": "WASHINGTON The U.S. Navy awarded Lockheed Martin $23 million to begin creating the Integrated Combat System that may one day connect the Navys and U.S. Coast Guards surface fleets.\r\nThe award could b… [+4489 chars]"
+    },
+    {
+      "source": { "id": null, "name": "GovExec.com" },
+      "author": "Erich Wagner",
+      "title": "Federal payroll processor: Oct. 11 is deadline to avert feds' getting incomplete paychecks - GovExec.com",
+      "description": "If Congress fails to restore funding to federal agencies, most federal workers will only receive a partial paycheck on Oct. 13.",
+      "url": "https://www.govexec.com/pay-benefits/2023/09/federal-payroll-processor-oct-11-deadline-avert-feds-getting-incomplete-paychecks/390803/",
+      "urlToImage": "https://cdn.govexec.com/media/img/cd/2023/09/29/092923_Getty_GovExec_FederalPaychecks/open-graph.jpg",
+      "publishedAt": "2023-09-29T20:27:00Z",
+      "content": "Cookie List\r\nA cookie is a small piece of data (text file) that a website when visited by a\r\n user asks your browser to store on your device in order to remember information about you, such as your\r\n… [+4205 chars]"
+    }
+  ]
+}
