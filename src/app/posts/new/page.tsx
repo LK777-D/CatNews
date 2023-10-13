@@ -3,7 +3,12 @@ import PostForm from "@/components/PostForm";
 
 const NewPost = () => {
   return (
-    <section className="w-full min-h-[140vh] bg-slate-100/50 flex items-center justify-center">
+    <section
+      style={{
+        backgroundImage: `url('https://static.vecteezy.com/system/resources/previews/023/729/629/large_2x/old-newspaper-texture-newspaper-wallpaper-generative-ai-photo.jpg')`,
+      }}
+      className="w-full min-h-[140vh] bg-cover bg-center flex items-center justify-center"
+    >
       <PostForm />
     </section>
   );

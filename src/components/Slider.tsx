@@ -60,7 +60,7 @@ const Slider = () => {
   };
 
   return (
-    <div className="max-w-[1800px] h-[50vh] w-[100vw] md:h-[75vh] lg:h-[80vh] lg:w-[100vw] xl:h-[100vh] xl:w-[100vw] relative mx-auto mt-4 mb-20">
+    <div className="max-w-[1800px] h-[50vh] w-[100vw] md:h-[75vh] lg:h-[80vh] lg:w-[100vw] xl:h-[100vh] xl:w-[100vw] relative mx-auto mt-2 mb-20">
       <div
         style={{ backgroundImage: `url(${images[index].url})` }}
         className="w-full h-full bg-center bg-cover duration-500 flex items-end pl-2"

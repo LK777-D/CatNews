@@ -21,7 +21,7 @@ const PostCard = ({
     return date.toLocaleDateString(undefined, options);
   };
   return (
-    <div className="flex flex-col px-4 py-2 rounded-2xl shadow-xl gap-2 border border-gray-200 hover:border-gray-300 transition duration-300 ease-out cursor-pointer w-[90%] md:w-[85%] lg:w-[60rem]">
+    <div className="flex flex-col   px-4 py-2 rounded-2xl shadow-xl gap-2 border border-gray-200 hover:border-gray-300 transition duration-300 ease-out cursor-pointer w-[90%] md:w-[85%] lg:w-[60rem]">
       <div className="flex flex-col items-start mb-3">
         <span className="fontbold md:text-xl lg:text-2xl mb-1 capitalize text-zinc-700 ">
           {title}
