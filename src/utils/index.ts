@@ -3,11 +3,12 @@
 export const fetchNews = async () => {
     
   
-    const appleUrl = `https://newsapi.org/v2/everything?q=apple&from=2023-10-11&to=2023-10-11&sortBy=popularity&apiKey=700dac9106b84b6a8cdb2b69de1d4dcf`;
-    const teslaUrl = `https://newsapi.org/v2/everything?q=tesla&from=2023-09-12&sortBy=publishedAt&apiKey=700dac9106b84b6a8cdb2b69de1d4dcf`;
-    const usUrl = `https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=700dac9106b84b6a8cdb2b69de1d4dcf`;
-    const crunchUrl = `https://newsapi.org/v2/top-headlines?sources=techcrunch&apiKey=700dac9106b84b6a8cdb2b69de1d4dcf`;
-    const wallStUrl = `https://newsapi.org/v2/everything?domains=wsj.com&apiKey=700dac9106b84b6a8cdb2b69de1d4dcf`;
+    const appleUrl = `
+    https://newsapi.org/v2/everything?q=apple&from=2023-10-12&to=2023-10-12&sortBy=popularity&apiKey=4efd5cc179e1478d9e41b26e83657f5c`;
+    const teslaUrl = `https://newsapi.org/v2/everything?q=tesla&from=2023-09-13&sortBy=publishedAt&apiKey=4efd5cc179e1478d9e41b26e83657f5c`;
+    const usUrl = `https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=4efd5cc179e1478d9e41b26e83657f5c`;
+    const crunchUrl = `https://newsapi.org/v2/top-headlines?sources=techcrunch&apiKey=4efd5cc179e1478d9e41b26e83657f5c`;
+    const wallStUrl = `https://newsapi.org/v2/everything?domains=wsj.com&apiKey=4efd5cc179e1478d9e41b26e83657f5c`;
   
     try {
       const appleResponse = await fetch(appleUrl , {next:{revalidate: 10000}});
