@@ -1,6 +1,7 @@
 import { UilFacebook } from "@iconscout/react-unicons";
 import { UilTwitterAlt } from "@iconscout/react-unicons";
 import { UilInstagram } from "@iconscout/react-unicons";
+import Link from "next/link";
 import Logo from "./Logo";
 
 const Footer = () => {
@@ -22,15 +23,29 @@ const Footer = () => {
       <div className="flex flex-col gap-10">
         <div className="flex flex-col gap-3  items-center md:flex-row md:mx-auto ">
           <div className="flex gap-3 ">
-            <span className="hover:underline">Terms of Use</span>
-            <span className="hover:underline">Privacy Policy</span>
-            <span className="hover:underline">Cookie Settings</span>
+            <Link href={""} className="hover:underline">
+              Terms of Use
+            </Link>
+            <Link href={""} className="hover:underline">
+              Privacy Policy
+            </Link>
+            <Link href={""} className="hover:underline">
+              Cookie Settings
+            </Link>
           </div>
           <div className="flex gap-3">
-            <span className="hover:underline">Ad Choices</span>
-            <span className="hover:underline">Accesebility & CC</span>
-            <span className="hover:underline">About</span>
-            <span className="hover:underline">Newsletter</span>
+            <Link href={""} className="hover:underline">
+              Ad Choices
+            </Link>
+            <Link href={""} className="hover:underline">
+              Accesebility & CC
+            </Link>
+            <Link href={""} className="hover:underline">
+              About
+            </Link>
+            <Link href={""} className="hover:underline">
+              Newsletter
+            </Link>
           </div>
         </div>
         <p className="p-3 text-center">

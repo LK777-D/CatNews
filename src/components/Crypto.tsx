@@ -1,4 +1,4 @@
-import { fetchCrypto } from "@/utils";
+import { fetchCrypto } from "@/utils/fetch";
 import { CryptoT } from "@/types/Types";
 
 const Crypto = async () => {

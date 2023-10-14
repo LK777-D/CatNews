@@ -1,4 +1,4 @@
-import { fetchNews } from "@/utils";
+import { fetchNews } from "@/utils/fetch";
 import { NewsT } from "@/types/Types";
 import NewsBox from "@/components/NewsBox";
 import LargeNewsCard from "@/components/LargeNewsCard";
