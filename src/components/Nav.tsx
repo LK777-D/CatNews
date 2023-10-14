@@ -14,7 +14,7 @@ const Nav = () => {
       <nav className=" text-white bg-blue-900 h-[5rem] lg:h-[6rem]">
         {/* small */}
         <div className="flex items-center justify-between px-3  h-full lg:hidden">
-          <Link href="/">
+          <Link className="cursor-pointer" href="/">
             <Logo size="text-[15.9px]" />
           </Link>
           <div className="flex flex-row-reverse items-center gap-4 fontsemibold">
@@ -35,7 +35,7 @@ const Nav = () => {
         {/* large */}
         <div className=" hidden lg:flex items-center h-full justify-around gap-[20rem] xl:gap-[25rem] ">
           <div className=" flex items-center gap-24  ">
-            <Link href="/" className="styledfont">
+            <Link href="/" className="styledfont cursor-pointer">
               <Logo size="text-[32px]  " />
             </Link>
             <div className=" hidden lg:flex gap-3 items-center  fontbold  ">
