@@ -9,7 +9,7 @@ import Head from "next/head";
 
 export default async function Home() {
   const newsData = await fetchNews();
-  const appleNews = newsData.appleData.articles.filter(
+  const appleNews = newsData.wallStData.articles.filter(
     (article: NewsT) => article.urlToImage !== null || undefined
   );
   const wallStNews = newsData.wallStData.articles.filter(

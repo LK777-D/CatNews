@@ -7,7 +7,7 @@ import Crypto from "@/components/Crypto";
 import SmallNewsCard from "@/components/SmallNewsCard";
 const Tech = async () => {
   const newsData = await fetchNews();
-  const techNews = newsData.appleData.articles.filter(
+  const techNews = newsData.usData.articles.filter(
     (article: NewsT) => article.urlToImage !== null || undefined
   );
   const teslaNews = newsData.teslaData.articles.filter(
